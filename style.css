@@ -1,1 +1,113 @@
+/* GENERAL PAGE STYLES */
 
+body {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+
+/* MAIN CONTAINER */
+
+.container {
+    max-width: 1000px;
+}
+
+
+/* HEADLINE */
+
+.headline {
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+
+/* BYLINE */
+
+.byline {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #777777;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/* CHAPTER HEADLINE */
+
+.chapter-headline {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+/* STORY IMAGE */
+
+.story-image {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.story-image img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* PHOTO CAPTION */
+
+.photo-caption {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #777777;
+    margin-top: 10px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    border-top: 1px solid #dddddd;
+    margin-top: 60px;
+    padding: 25px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #777777;
+}
+
+
+/* THREE COLUMN LAYOUT */
+
+.row {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 768px) {
+
+    .headline {
+        font-size: 34px;
+    }
+
+    .chapter-headline {
+        font-size: 24px;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+}
